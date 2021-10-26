@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-	int roll , sem , pkec , prkec , pokec , prout , prise , prisewom;
+	int roll , sem , pkec , prkec , pokec , prout , prise , prisewom ,idea;
 
 	printf("rollnumber:");
 	scanf("%s",roll);
@@ -19,3 +19,5 @@ void main()
 	scanf("%d",&prise);
 	printf("No. of prize won in Hackathon:");
 	scanf("%d",&prisewon);
+	printf("Ideathon selected? (Yes/No));
+	scanf("%d",&idea);       
